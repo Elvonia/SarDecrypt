@@ -38,7 +38,7 @@ namespace SarDecrypt.Compression
                         if (length == 0)
                         {
                             length = ReadByte(ctx);
-                            length += 1;
+                            length += 10;
                         }
                         else
                         {
